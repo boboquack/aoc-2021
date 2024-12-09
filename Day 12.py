@@ -1,26 +1,4 @@
-s='''LP-cb
-PK-yk
-bf-end
-PK-my
-end-cb
-BN-yk
-cd-yk
-cb-lj
-yk-bf
-bf-lj
-BN-bf
-PK-cb
-end-BN
-my-start
-LP-yk
-PK-bf
-my-BN
-start-PK
-yk-EP
-lj-BN
-lj-start
-my-lj
-bf-LP'''.split()
+s=INPUT.split()
 d={}
 for i in s:
     j,k=i.split('-')
