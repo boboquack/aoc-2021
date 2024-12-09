@@ -1,7 +1,7 @@
-minx=288
-maxx=330
-miny=-96
-maxy=-50
+minx=int(INPUT1)
+maxx=int(INPUT2)
+miny=int(INPUT3)
+maxy=int(INPUT4)
 t=0
 for vy in range(-96,96):
     k=vy
